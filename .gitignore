@@ -1,0 +1,26 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Terraform local state and plugins (Project 4+)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
