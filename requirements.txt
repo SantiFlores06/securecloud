@@ -1,0 +1,41 @@
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# UI
+streamlit==1.39.0
+
+# Caching (redis is only used when CACHE_BACKEND=redis)
+redis==5.2.0
+
+# Data
+pandas==2.2.3
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+httpx==0.28.1
+
+# Profiling
+py-spy==0.3.14
+memory-profiler==0.61.0
+
+# Code Quality
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0
+
+# Utils
+python-dotenv==1.0.1
+pydantic==2.13.5
+python-multipart==0.0.12
+requests==2.32.3
+
+# AI
+google-genai==2.25.0
+
+# Mapas
+folium==0.19.5
+streamlit-folium==0.22.0
+searoute==1.6.0
